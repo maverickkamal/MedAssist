@@ -79,7 +79,7 @@ export function KnowledgeInterface() {
       const startTime = Date.now()
 
       try {
-        const response = await axios.post('https://bookish-space-funicular-7qr9x6vx9vp3x5rq-8000.app.github.dev/chat', formData, {
+        const response = await axios.post('https://localhost:8000/chat', formData, {
           headers: {
             'Content-Type': 'multipart/form-data',
           },

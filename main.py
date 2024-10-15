@@ -14,6 +14,7 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
+
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 

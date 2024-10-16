@@ -1,0 +1,7 @@
+google-generativeai
+flask
+flask-cors
+gpt-researcher
+asyncio
+werzueg
+python-dotenv
